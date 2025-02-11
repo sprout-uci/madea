@@ -1,0 +1,61 @@
+25ca66438d873c749cc9dec83534fc7e5684667d5701ca65a9ea666a87918ba6 lxterminal
+38cfc1d820a233c60385c0c39929667688c655cd233784ded8c6965cd59b447a /usr/sbin/dhcpcd -b -q
+d7b5ff8cc16d4b3a37637d255fec6712b7a739de2e17aaa4239f53be28754949 /usr/bin/lxsession -s LXDE-pi -e LXDE
+718647a53eb1eafe51881342487cce596361b5fb377c8e2e7fa54a9f97a5d18c /usr/bin/ssh-agent x-session-manager
+9584213ce75fcd60262ce0896060545895595b6269028c5e1488ccfd94871452 /usr/libexec/gvfs-goa-volume-monitor
+6368272d3341f20c1446642041b5cad20816ac915eb1d218073ef1fabb2c41c9 sudo python3 /home/madea/Documents/SmartLight.py /home/madea/Documents
+212c1059f5980b8172f7ca58d202b175dce88966f70f3566ba3763d1f47b98ac python3 /home/madea/Documents/SmartLight.py /home/madea/Documents
+527327c59f2fdc296e924afc1985ba67423c9ab22c68905ad7c386d14c18261a (sd-pam)
+d5c1c0f7f8c3f2f4ffebb0b4cb29a0d14c2f06059ca69e8d4ae66cb3f35dbe61 /usr/libexec/rtkit-daemon
+6b0e9a2a80082d10b238fbf4113ff9ed5360d6d008e9639002a76dffc9923cbf /usr/sbin/thd --triggers /etc/triggerhappy/triggers.d/ --socket /run/thd.socket --user nobody --deviceglob /dev/input/event*
+7f6e8e02697895af1a0a6a8f2d5209224535dc8c7c3bf5f96573f3a1fa82bc8d /usr/lib/menu-cache/menu-cached /run/user/1000/menu-cached-:0
+527327c59f2fdc296e924afc1985ba67423c9ab22c68905ad7c386d14c18261a /lib/systemd/systemd --user
+cb2aff95ad9b467ee394c80043b96e87ff014b55645ce2f5538d49ae9f2adf46 /usr/lib/xorg/Xorg :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+5f1ea0c78f9ceb8736bd34d31df09b3df81dfd06db4693bc066ba0d70740c2d0 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+e77b474ec0528b5e78299a9eaadaa0d6ee5e1138bd447905526b1b3dbeb6c08a /lib/systemd/systemd-logind
+39fd8d2aceaac28178c983fafdc58bbab1d78d94e85614ce607a3ae48c00aa1b /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+ae4c8cfd347ed29f8d18f0484838f544b9a267250b91cf1a758994b5a701f188 /usr/libexec/gvfsd
+b7813082f5128c78673cc05f213707ad205a65d526f43bb429afc3c95aec1a96 /usr/libexec/gvfs-gphoto2-volume-monitor
+9628d72ce5b2d9f49d4fbe23eaab4826ab6cbc8013472b783dfe35cf55e59fdc /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+527327c59f2fdc296e924afc1985ba67423c9ab22c68905ad7c386d14c18261a /sbin/init splash
+0211a26caa5483183425f62e8f6a1ff194b26f7952b4170c334065eb4973c3f7 lxpolkit
+417438139161a8e6121d31613363f87e4f477378393dc607d899bff952848d9a /usr/sbin/cron -f
+5192eb8db242137fc54fa3176485b2a26ffda9cdbb21aec15b35db0ee867a427 /usr/libexec/polkitd --no-debug
+6d0755ac6daba6c8c0d83e93fb025d5846a027c679812e775620741eb2a96615 /usr/sbin/ModemManager
+eef605cb81dc022a3679b9983ce17196c41a18b3acfd9ce2003fb0f17a528e47 mutter
+718647a53eb1eafe51881342487cce596361b5fb377c8e2e7fa54a9f97a5d18c /usr/bin/ssh-agent -s
+99dcfcc1f34623a6842d751ee0c064ef9565d46aeb7117a3e03bdda6d519f4de /bin/login -f
+ebbe7248d516037a239348ad255f9645acfc21de96eb8e5ca01213df267738f8 bash
+ebbe7248d516037a239348ad255f9645acfc21de96eb8e5ca01213df267738f8 -bash
+ef6f54e1cda7ccfb17ce4f188659a0548298cbe637a78acfce8e9da193d16517 /usr/bin/pipewire
+ac2c7e4c5c72e32581c6ce78d2cdc26a0fc03f8cdfe05797258e059c69e3c6db lightdm --session-child 14 17
+fe675402f54118f7845357def159f8ac67f102963872df3203f07399a742d33e /usr/sbin/rngd -r /dev/hwrng
+e025682bf68138d19c0f1106a8de477c120e15c0e19636670731fddec9c63ce9 /usr/bin/pipewire-media-session
+7c5266482bb87a5e36b3c3a4bc482fb9d3b48212e0afc20b1f14690bb0cc948d /usr/bin/pulseaudio --daemonize=no --log-target=journal
+602f4dab03a01ef6616881c249fef52018a77a4aca9ebaf7cc7cbdf9b3e63e47 /usr/libexec/udisks2/udisksd
+39fd8d2aceaac28178c983fafdc58bbab1d78d94e85614ce607a3ae48c00aa1b wpa_supplicant -B -c/etc/wpa_supplicant/wpa_supplicant.conf -iwlan0
+1d97e37a62b9ea077c132daa6415a85c3d3fcd1080e4ae1fc81d6d49223af78d /usr/libexec/gvfs-udisks2-volume-monitor
+1ef0dc6898fe371483526fc56aa19cf11d8801d45a3e47cc7c260efc87ebf1ec /usr/bin/hciattach /dev/serial1 bcm43xx 3000000 flow -
+b7469e06fce404a0ec784c4efa54ab85591b82ecf149cce605f05a1d69f90bdd /usr/sbin/rsyslogd -n -iNONE
+8de360aaa8136bfd4cc8db3141fa2bd3853148cb2093d55e393940c7de27aee4 /usr/lib/cups/notifier/dbus dbus://
+35176f3b975b595d4e90e8ad1d60d62a0f3742884436a236f8b6342245522150 /lib/systemd/systemd-udevd
+c89f24141508f6a35820fa5cf34528a53a48df4e4c399763f24f4d2a7ae8f597 /usr/libexec/bluetooth/bluetoothd
+0bef1d02c7846acc60d4817540cadaf28a34d6a8f93275228014f6c160c5511d avahi-daemon: running [raspberrypi.local]
+88074215bd80f0f72b898ff4a2c5be74d4ad206783302b44d7e06569df5a4649 /usr/libexec/gvfsd-trash --spawner :1.7 /org/gtk/gvfs/exec_spaw/0
+204892ea9898460569dc85430dfd11c89b7529557c53198706d64e95a49c8ee1 /lib/systemd/systemd-timesyncd
+0bef1d02c7846acc60d4817540cadaf28a34d6a8f93275228014f6c160c5511d avahi-daemon: chroot helper
+712682fab3c557c6c166694b46899cf3d2fa045e301f3914130f6c5f61340f55 lxpanel --profile LXDE-pi
+5f1ea0c78f9ceb8736bd34d31df09b3df81dfd06db4693bc066ba0d70740c2d0 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+7f22105a2b4435a1aa01d6049f38d47f5b7b5ea8171419379ab226c6c2864cef /usr/libexec/gvfs-mtp-volume-monitor
+212c1059f5980b8172f7ca58d202b175dce88966f70f3566ba3763d1f47b98ac /usr/bin/python3 /usr/share/system-config-printer/applet.py
+066f1d0b8fdc39427eb0a2baf857280924cf93c4748593b115d83bbae7f66b14 pcmanfm --desktop --profile LXDE-pi
+9230e30dae9fdb603c88049b657bde3bdcbe625a81992caa8a20c236ec005418 /lib/systemd/systemd-journald
+d0dbe9f7e852af870ff01e303826616845cb6b464e5ac426a79e9cb13e8bd250 /usr/sbin/cupsd -l
+8c539f4b49214907d0176f8823ca35f8be9574445c7beaa023eee6c06aa3159b /usr/libexec/gvfsd-metadata
+0f4b1b71a1fd0907f394083eaa92215f7c3b20808273b53df4d0c4783180fc11 /usr/libexec/gvfs-afc-volume-monitor
+8aec03e9fd5f5f62071266b45f2ab8cb4e74c1f771d2c9e8af5c179b552cd455 /usr/libexec/packagekitd
+312f708854cff97391a91ff50d2d8d5ddf8a2475e0d2f659cf2a0468d93a30de /usr/sbin/cups-browsed
+ac2c7e4c5c72e32581c6ce78d2cdc26a0fc03f8cdfe05797258e059c69e3c6db /usr/sbin/lightdm
+11b21ff368d3ce42a37c0464990c0590fb316278ee479d518e7688dcf4075f58 /bin/sh -c sudo python3 /home/madea/Documents/SmartLight.py /home/madea/Documents
+11b21ff368d3ce42a37c0464990c0590fb316278ee479d518e7688dcf4075f58 /bin/sh /usr/bin/btuart
+417438139161a8e6121d31613363f87e4f477378393dc607d899bff952848d9a /usr/sbin/CRON -f
